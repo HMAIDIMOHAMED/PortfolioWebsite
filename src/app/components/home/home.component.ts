@@ -1,5 +1,6 @@
 import { Component } from '@angular/core';
 import { Title } from '@angular/platform-browser';
+import { Project } from '../../models/project';
 
 @Component({
   selector: 'app-home',
@@ -7,6 +8,7 @@ import { Title } from '@angular/platform-browser';
   styleUrl: './home.component.css'
 })
 export class HomeComponent {
+
 
   constructor(private titleService : Title)
   {
